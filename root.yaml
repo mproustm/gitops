@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/mproustm/gitops.git
     targetRevision: main
-    path: argocd/apps
+    path: argocd/apps5
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
